@@ -1,0 +1,11 @@
+# PDF Processing
+pdfplumber>=0.10.0
+
+# Gmail API (only needed for bulk_email_sender.py)
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.100.0
+
+# Note: bulk_email_sender_smtp.py needs NO extra dependencies
+# beyond pdfplumber — it uses Python's built-in smtplib + ssl
